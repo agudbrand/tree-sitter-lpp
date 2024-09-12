@@ -1,0 +1,11 @@
+@hello (hi, bye, good, bad)
+
+hi
+
+$ hi
+
+@another_macro
+
+$$$
+a block
+$$$

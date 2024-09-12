@@ -1,0 +1,115 @@
+[
+  {
+    "type": "left_paren",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "lua_block",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "lua_line",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "macro",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "id",
+          "named": true
+        },
+        {
+          "type": "left_paren",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "macro_arg",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "macro_args",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "macro_arg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "document",
+          "named": true
+        },
+        {
+          "type": "lua_block",
+          "named": true
+        },
+        {
+          "type": "lua_line",
+          "named": true
+        },
+        {
+          "type": "macro",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "$",
+    "named": false
+  },
+  {
+    "type": "$$$",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "document",
+    "named": true
+  },
+  {
+    "type": "id",
+    "named": true
+  }
+]
